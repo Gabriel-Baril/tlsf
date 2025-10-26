@@ -2,11 +2,11 @@ using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 
 [Generate]
-public class TLSFProject : BaseCppProject
+public class HdnCodeExternalTLSFProject : BaseCppProject
 {
-    public TLSFProject()
+    public HdnCodeExternalTLSFProject()
     {
-        Name = "tlsf";
+        Name = "hdn.code.external.tlsf";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
