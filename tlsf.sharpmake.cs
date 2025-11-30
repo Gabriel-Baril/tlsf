@@ -6,7 +6,7 @@ public class HdnCodeExternalTLSFProject : BaseCppProject
 {
     public HdnCodeExternalTLSFProject()
     {
-        Name = "hdn.code.external.tlsf";
+        Name = "dm.code.external.tlsf";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
